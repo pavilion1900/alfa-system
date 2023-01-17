@@ -1,0 +1,1929 @@
+{ 
+    "_id" : ObjectId("615c4754cca1e9630a46e659"), 
+    "name" : "Sevice Manager", 
+    "login" : "SM", 
+    "email" : "Отсутствует", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-10-05T12:38:43.270+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("607c9222809ee66768b32f08"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c4754cca1e9630a46e65a"), 
+    "name" : "The Administrator", 
+    "login" : "admin", 
+    "email" : "Отсутствует", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-10-05T12:38:44.395+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("607c9222809ee66768b32f08"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c4754cca1e9630a46e65b"), 
+    "name" : "Азаров Кирилл Владимирович", 
+    "login" : "MOSCOW\\U_M15AX", 
+    "email" : "KAzarov2@alfabank.ru", 
+    "status" : "Inactive", 
+    "inactiveDate" : ISODate("2022-04-29T21:00:00.000+0000"), 
+    "registrationDate" : ISODate("2021-10-05T12:38:44.427+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c4755cca1e9630a46e65c"), 
+    "name" : "Барабанов Михаил Алексеевич", 
+    "login" : "MOSCOW\\U_M1B2K", 
+    "email" : "MABarabanov@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:44.973+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c4755cca1e9630a46e65d"), 
+    "name" : "Бачурин Андрей Андреевич", 
+    "login" : "MOSCOW\\U_M17FM", 
+    "email" : "ABachurin@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-10-05T12:38:45.130+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c4755cca1e9630a46e65e"), 
+    "name" : "Безе Борис Алексеевич", 
+    "login" : "MOSCOW\\U_M19PJ", 
+    "email" : "BBeze@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:45.286+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c4755cca1e9630a46e65f"), 
+    "name" : "Березкин Алексей Владимирович", 
+    "login" : "MOSCOW\\U_M16F6", 
+    "email" : "AVBerezkin@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:45.427+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "b6168359-d9b6-4ca2-9897-ac29b8c0c960", 
+    "name" : "Бородянский Никита Олегович", 
+    "login" : "MOSCOW\\U_M13QK", 
+    "email" : "NBorodyanskiy@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-10-05T12:38:45.583+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d9296648b12334289ea")), 
+        DBRef("Administration", ObjectId("60239d7396648b12334289b8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "044263f1-c2a8-4ea9-b458-74d87a07c181", 
+    "name" : "Василенко Вячеслав Владимирович", 
+    "login" : "REGIONS\\U_023AW", 
+    "email" : "VVVasilenko@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-10-05T12:38:45.864+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d5a96648b1233428985")), 
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8")), 
+        DBRef("Administration", ObjectId("60239d7396648b12334289b8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c4756cca1e9630a46e660"), 
+    "name" : "Верхоланцев Руслан Сергеевич", 
+    "login" : "MOSCOW\\U_M1B5T", 
+    "email" : "RVerkholantsev@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:46.020+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c4756cca1e9630a46e661"), 
+    "name" : "Веснин Ярослав Анатольевич", 
+    "login" : "MOSCOW\\U_M11NW", 
+    "email" : "YVesnin@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:46.161+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c4756cca1e9630a46e662"), 
+    "name" : "Власов Андрей Владимирович", 
+    "login" : "MOSCOW\\U_M1AU2", 
+    "email" : "AVlasov6@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:46.317+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c4756cca1e9630a46e663"), 
+    "name" : "Горбунов Алексей Александрович", 
+    "login" : "MOSCOW\\U_M19PV", 
+    "email" : "AGorbunov2@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:46.442+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "2e62cbcf-55c8-450e-8179-990bdc401c45", 
+    "name" : "Гордеева Анна Евгеньевна", 
+    "login" : "MOSCOW\\U_M16UZ", 
+    "email" : "AGordeeva@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-10-05T12:38:46.583+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d5a96648b1233428985")), 
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8")), 
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad")), 
+        DBRef("Administration", ObjectId("60239d7396648b12334289b8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c4756cca1e9630a46e664"), 
+    "name" : "Гранковский Андрей Васильевич", 
+    "login" : "MOSCOW\\U_M15VF", 
+    "email" : "AGrankovskiy@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:46.739+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("611a29efac25d321154deed3"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c4757cca1e9630a46e665"), 
+    "name" : "Громов Игорь Олегович", 
+    "login" : "MOSCOW\\SB_73", 
+    "email" : "IGromov@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:46.895+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c4757cca1e9630a46e666"), 
+    "name" : "Дианов Олег Александрович", 
+    "login" : "MOSCOW\\U_M143Z", 
+    "email" : "ODianov@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:47.052+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "ed5ae5fa-c080-4aaf-94c5-e1198f3c2293", 
+    "name" : "Дрынкин Владимир Андреевич", 
+    "login" : "MOSCOW\\U_M0SLM", 
+    "email" : "VDrynkin@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-10-05T12:38:47.192+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "dc215f2b-c27c-419d-865b-269001149b7b", 
+    "name" : "Егоров Виктор Леонидович", 
+    "login" : "MOSCOW\\U_M0VUC", 
+    "email" : "VEgorov2@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-10-05T12:38:47.348+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c4757cca1e9630a46e667"), 
+    "name" : "Жесткова Евгения Григорьевна", 
+    "login" : "MOSCOW\\U_M17Z8", 
+    "email" : "EZhestkova@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:47.520+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "c70fbc0d-7f0f-49d4-a000-7452a828019b", 
+    "name" : "Закрацкий Станислав Михайлович", 
+    "login" : "MOSCOW\\U_M16KC", 
+    "email" : "SZakratskiy3@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-10-05T12:38:47.661+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c4757cca1e9630a46e668"), 
+    "name" : "Запрудский Василий Борисович", 
+    "login" : "MOSCOW\\U_M1B4U", 
+    "email" : "VZaprudskiy@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:47.833+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c4758cca1e9630a46e669"), 
+    "name" : "Измайлова Екатерина Андреевна", 
+    "login" : "MOSCOW\\U_M0WMN", 
+    "email" : "EAIzmaylova@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:47.989+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "bf20c014-bc56-4357-a824-7241dc1452c1", 
+    "name" : "Капустин Кирилл Алексеевич", 
+    "login" : "MOSCOW\\U_M0UCU", 
+    "email" : "apashkevich2@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-10-05T12:38:48.130+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c4758cca1e9630a46e66a"), 
+    "name" : "Киселев Павел Анатольевич", 
+    "login" : "MOSCOW\\U_M18XR", 
+    "email" : "PKiselev@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:48.302+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c4758cca1e9630a46e66b"), 
+    "name" : "Климентьев Александр Лирович", 
+    "login" : "MOSCOW\\U_M1AE8", 
+    "email" : "AKlimentyev@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:48.458+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c4758cca1e9630a46e66c"), 
+    "name" : "Коновалов Владимир Владимирович", 
+    "login" : "MOSCOW\\U_M1ADQ", 
+    "email" : "VVKonovalov@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:48.598+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c4758cca1e9630a46e66d"), 
+    "name" : "Коновалов Дмитрий Александрович", 
+    "login" : "MOSCOW\\U_M1AYN", 
+    "email" : "DKonovalov@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:48.739+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "3a3472a7-dd63-42fd-9a94-58ccf4efb4f0", 
+    "name" : "Кузнецов Александр Владимирович", 
+    "login" : "REGIONS\\U_02254", 
+    "email" : "AKuznetsov8@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-10-05T12:38:48.880+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c4759cca1e9630a46e66e"), 
+    "name" : "Кузнецов Денис Викторович", 
+    "login" : "MOSCOW\\U_M13NC", 
+    "email" : "DVKuznetsov@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:49.052+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d5a96648b1233428985"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c4759cca1e9630a46e66f"), 
+    "name" : "Куринная Вера Сергеевна", 
+    "login" : "MOSCOW\\U_M17NE", 
+    "email" : "VKurinnaya@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:49.255+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c4759cca1e9630a46e670"), 
+    "name" : "Куринная Юлия Сергеевна", 
+    "login" : "MOSCOW\\U_M13JH", 
+    "email" : "YKurinnaya@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:49.411+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c4759cca1e9630a46e671"), 
+    "name" : "Лобанова Дана Геннадьевна", 
+    "login" : "MOSCOW\\U_M0YSM", 
+    "email" : "DLobanova@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:49.567+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c4759cca1e9630a46e672"), 
+    "name" : "Ляшенко Дмитрий Викторович", 
+    "login" : "MOSCOW\\U_M19PX", 
+    "email" : "DVLyashenko@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:49.724+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "74f68675-3689-490b-ab12-de244e0bd219", 
+    "name" : "Мальцев Павел Юрьевич", 
+    "login" : "MOSCOW\\U_M17N9", 
+    "email" : "PMaltsev@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-10-05T12:38:49.864+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475acca1e9630a46e673"), 
+    "name" : "Марголина Анна Борисовна", 
+    "login" : "MOSCOW\\U_M00U3", 
+    "email" : "amargolina@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:50.036+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475acca1e9630a46e674"), 
+    "name" : "Московой Евгений Юрьевич", 
+    "login" : "MOSCOW\\U_M12PM", 
+    "email" : "EMoskovoy@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-10-05T12:38:50.177+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d5a96648b1233428985")), 
+        DBRef("Administration", ObjectId("60239d7396648b12334289b8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475acca1e9630a46e675"), 
+    "name" : "Мухамадеев Александр Валерьевич", 
+    "login" : "MOSCOW\\U_M0UG4", 
+    "email" : "AMukhamadeev@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:50.380+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475acca1e9630a46e676"), 
+    "name" : "Нагибин Александр Владимирович", 
+    "login" : "MOSCOW\\U_M18H2", 
+    "email" : "ANagibin@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:50.520+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475acca1e9630a46e677"), 
+    "name" : "Назаренко Алексей Александрович", 
+    "login" : "MOSCOW\\U_M1B39", 
+    "email" : "ANazarenko@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:50.661+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "9f55109c-9194-4b65-9362-ca067457b01e", 
+    "name" : "Остапенко Юлия Васильевна", 
+    "login" : "MOSCOW\\U_M0645", 
+    "email" : "YVOstapenko@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-10-05T12:38:50.817+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d5a96648b1233428985")), 
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475bcca1e9630a46e678"), 
+    "name" : "Павлов Александр Олегович", 
+    "login" : "MOSCOW\\U_M1AY0", 
+    "email" : "AOPavlov@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:50.989+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475bcca1e9630a46e679"), 
+    "name" : "Панов Владислав Сергеевич", 
+    "login" : "MOSCOW\\U_M15GE", 
+    "email" : "VSPanov@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:51.130+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "934ae878-2a4c-484c-b666-1e61a7f8c2c3", 
+    "name" : "Пишванов Борис Евгеньевич", 
+    "login" : "MOSCOW\\U_M12XE", 
+    "email" : "BPishvanov@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-10-05T12:38:51.270+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("611a29efac25d321154deed3")), 
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475bcca1e9630a46e67a"), 
+    "name" : "Полосин Александр Сергеевич", 
+    "login" : "MOSCOW\\U_M0SBK", 
+    "email" : "ASPolosin@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:51.442+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475bcca1e9630a46e67b"), 
+    "name" : "Румянцев Александр Сергеевич", 
+    "login" : "REGIONS\\U_023X8", 
+    "email" : "ASRumyantsev@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:51.599+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475bcca1e9630a46e67c"), 
+    "name" : "Салахов Михаил Александрович", 
+    "login" : "MOSCOW\\U_M14E6", 
+    "email" : "MSalakhov@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:51.770+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475ccca1e9630a46e67d"), 
+    "name" : "Сахаров Антон Дмитриевич", 
+    "login" : "MOSCOW\\U_M1AA2", 
+    "email" : "ASakharov3@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:51.911+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475ccca1e9630a46e67e"), 
+    "name" : "Седов Максим Сергеевич", 
+    "login" : "MOSCOW\\U_M1AZW", 
+    "email" : "MSedov@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:52.036+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d5a96648b1233428985"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475ccca1e9630a46e67f"), 
+    "name" : "Семенов Александр Александрович", 
+    "login" : "MOSCOW\\U_M1587", 
+    "email" : "ASemenov5@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:52.192+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("611a29efac25d321154deed3"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475ccca1e9630a46e680"), 
+    "name" : "Семенова Ксения Николаевна", 
+    "login" : "REGIONS\\U_419G1", 
+    "email" : "KNSemenova@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:52.333+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475ccca1e9630a46e681"), 
+    "name" : "Семилетов Алексей Сергеевич", 
+    "login" : "MOSCOW\\U_M19MS", 
+    "email" : "ASemiletov@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:52.474+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475ccca1e9630a46e682"), 
+    "name" : "Сенько Леонид Сергеевич", 
+    "login" : "MOSCOW\\U_M1BEL", 
+    "email" : "LSenko@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:52.614+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475ccca1e9630a46e683"), 
+    "name" : "Сергеев Алексей Александрович", 
+    "login" : "MOSCOW\\U_M18ZK", 
+    "email" : "ASergeev9@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:52.771+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475dcca1e9630a46e684"), 
+    "name" : "Серебряный Антон Андреевич", 
+    "login" : "MOSCOW\\U_M18Y4", 
+    "email" : "ASerebryany@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:52.895+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475dcca1e9630a46e685"), 
+    "name" : "Сизганов Илья Алексеевич", 
+    "login" : "MOSCOW\\U_M187U", 
+    "email" : "ISizganov@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:53.036+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475dcca1e9630a46e686"), 
+    "name" : "Синицын Александр Михайлович", 
+    "login" : "MOSCOW\\U_M18V8", 
+    "email" : "AMSinitsyn@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:53.177+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "87129fd5-24b2-4bb5-98e5-947c0254c73e", 
+    "name" : "Синюгин Алексей Сергеевич", 
+    "login" : "MOSCOW\\U_M13TY", 
+    "email" : "ASinyugin@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-10-05T12:38:53.333+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d5a96648b1233428985"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "80ef039d-7983-4dc9-a038-f6dd7fadbf42", 
+    "name" : "Сироклин Валентин Игоревич", 
+    "login" : "MOSCOW\\U_M06WG", 
+    "email" : "VSiroklin@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-10-05T12:38:53.489+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "b8607631-463d-4e34-8bc2-3f06078c242f", 
+    "name" : "Солярик Максим Валентинович", 
+    "login" : "MOSCOW\\U_M11YS", 
+    "email" : "MSolyarik@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-10-05T12:38:53.645+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d7396648b12334289b8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475dcca1e9630a46e687"), 
+    "name" : "Степанов Алексей Федорович", 
+    "login" : "MOSCOW\\U_M1958", 
+    "email" : "AFStepanov@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:53.817+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475ecca1e9630a46e688"), 
+    "name" : "Степанцев Михаил Алексеевич", 
+    "login" : "MOSCOW\\U_M17LS", 
+    "email" : "MStepantsev@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:53.974+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475ecca1e9630a46e689"), 
+    "name" : "Сулейманов Фарид Хаевич", 
+    "login" : "MOSCOW\\U_10A1", 
+    "email" : "FSuleymanov@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:54.130+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d5a96648b1233428985"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475ecca1e9630a46e68a"), 
+    "name" : "Трикоз Александр Валерьевич", 
+    "login" : "MOSCOW\\U_M17HJ", 
+    "email" : "ATrikoz@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:54.286+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475ecca1e9630a46e68b"), 
+    "name" : "Удовенко Алексей Леонидович", 
+    "login" : "MOSCOW\\U_M13E3", 
+    "email" : "ALUdovenko@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:54.427+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475ecca1e9630a46e68c"), 
+    "name" : "Фоменко Александр Валерьевич", 
+    "login" : "MOSCOW\\U_M18MB", 
+    "email" : "AVFomenko@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:54.567+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475ecca1e9630a46e68d"), 
+    "name" : "Черкасский Александр Геннадьевич", 
+    "login" : "MOSCOW\\U_M08SB", 
+    "email" : "ACherkasskiy@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:54.708+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d5a96648b1233428985"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475ecca1e9630a46e68e"), 
+    "name" : "Черток Александр Витальевич", 
+    "login" : "MOSCOW\\U_M18U2", 
+    "email" : "AChertok@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:54.849+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475fcca1e9630a46e68f"), 
+    "name" : "Чиканов Александр Игоревич", 
+    "login" : "MOSCOW\\U_M1867", 
+    "email" : "AChikanov@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:54.990+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475fcca1e9630a46e690"), 
+    "name" : "Чудайкин Игорь Олегович", 
+    "login" : "MOSCOW\\U_M1138", 
+    "email" : "IChudaykin@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:55.130+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : ObjectId("615c475fcca1e9630a46e691"), 
+    "name" : "Шнайдер Дмитрий Альбертович", 
+    "login" : "MOSCOW\\U_M0ASM", 
+    "email" : "DShnayder@alfabank.ru", 
+    "status" : "Inactive", 
+    "registrationDate" : ISODate("2021-10-05T12:38:55.271+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "a60948ee-e67a-49ce-894e-a9a2a3ab80ea", 
+    "name" : "Алисиевич Сергей Александрович", 
+    "login" : "MOSCOW\\U_M20MP", 
+    "email" : "SAlisievich@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-10-05T12:38:55.411+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("611a29efac25d321154deed3")), 
+        DBRef("Administration", ObjectId("615498acbe14dac53ea28660")), 
+        DBRef("Administration", ObjectId("60239d5a96648b1233428985")), 
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8")), 
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad")), 
+        DBRef("Administration", ObjectId("60239d7f96648b12334289cb")), 
+        DBRef("Administration", ObjectId("60239d7396648b12334289b8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "398ce038-d3e8-46b3-b431-dd4aac13b759", 
+    "name" : "Пахомов Василий Александрович", 
+    "login" : "MOSCOW\\U_M0XUX", 
+    "email" : "VPakhomov@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-10-05T12:38:55.583+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8")), 
+        DBRef("Administration", ObjectId("60239d7396648b12334289b8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "d0e6ecbe-f187-4e96-8c01-242a1ee99414", 
+    "name" : "Розенбаум Александр Яковлевич", 
+    "login" : "MSK\\u_sla25", 
+    "email" : "salisievich@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-10-05T12:57:00.177+0000"), 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d5a96648b1233428985")), 
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8")), 
+        DBRef("Administration", ObjectId("60239d7396648b12334289b8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "a5df4081-ae31-4765-a37c-7e8be8c41a2a", 
+    "name" : "Корнелюк Игорь Евгеньевич", 
+    "login" : "MSK\\u_sla24", 
+    "email" : "salisievich@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-10-05T12:57:28.348+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "c35fc1fa-101f-4ce8-91fc-9c92070dbc08", 
+    "name" : "Свиридов Василий Илларионович", 
+    "login" : "MSK\\u_sla23", 
+    "email" : "sviridov_test@test0209.su", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-10-08T06:56:39.551+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d7396648b12334289b8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "200820b5-0bdf-4859-b346-1f91ce29080b", 
+    "name" : "ТестФ17 ТестИ17 ТестО17", 
+    "login" : "MSK\\u_sla17", 
+    "email" : "salisievich@alfabank.ru", 
+    "status" : "Inactive", 
+    "inactiveDate" : ISODate("2021-10-30T21:00:00.000+0000"), 
+    "registrationDate" : ISODate("2021-10-08T12:03:09.914+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8")), 
+        DBRef("Administration", ObjectId("611a29efac25d321154deed3")), 
+        DBRef("Administration", ObjectId("60239d7396648b12334289b8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "76c59d1a-8b0f-4ddc-8093-97e3af5191df", 
+    "name" : "Виславский Артём Витальевич", 
+    "login" : "MSK\\u_m0ctc", 
+    "email" : "avvislavskiy@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-10-13T13:08:19.502+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d7f96648b12334289cb"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "7d5564ac-348d-4aaa-8c99-3ddba335dff8", 
+    "name" : "ТестФ16 ТестИ16 ТестО16", 
+    "login" : "MSK\\u_sla16", 
+    "email" : "test@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-10-18T12:47:31.376+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d5a96648b1233428985")), 
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "c9e88251-71ba-4889-8a44-33523d1793e0", 
+    "name" : "Сергеев Сергей ", 
+    "login" : "MSK\\u_emp02", 
+    "email" : "salisievich@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-10-18T14:53:36.046+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("615498acbe14dac53ea28660"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "4725f8e7-0cfe-405b-9ce4-00ca588bd15f", 
+    "name" : "ТестФ15 ТестИ15 ТестО15", 
+    "login" : "MSK\\u_sla15", 
+    "email" : "salisievich@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-10-29T09:14:07.119+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("611a29efac25d321154deed3")), 
+        DBRef("Administration", ObjectId("615498acbe14dac53ea28660")), 
+        DBRef("Administration", ObjectId("60239d5a96648b1233428985"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "d231029c-50f0-424e-b54c-84f60f4a4ce7", 
+    "name" : "Исмагилов Таир Гаярович", 
+    "login" : "MSK\\u_m1761", 
+    "email" : "tismagilov@alfabank.ru", 
+    "status" : "Inactive", 
+    "inactiveDate" : ISODate("2022-07-19T21:00:00.000+0000"), 
+    "registrationDate" : ISODate("2021-11-02T15:14:31.520+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d5a96648b1233428985"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "aa06e2c1-5c24-4990-a17c-80de4ca0cc78", 
+    "name" : "ТестФ12 ТестИ12", 
+    "login" : "MSK\\u_sla12", 
+    "email" : "SAlisievic3h@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-11-03T08:41:32.096+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : true, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d7f96648b12334289cb"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "b5c9db67-f1cb-4ba9-98d0-51f07087a31f", 
+    "name" : "Лосицкий Андрей Анатлоьевич", 
+    "login" : "MSK\\u_sla10", 
+    "email" : "SAlisievich@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-11-25T09:20:10.062+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : true, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("615498acbe14dac53ea28660"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "0423ca76-92ae-4aa5-8a77-82c19f44066b", 
+    "name" : "ТестФ19 ТестИ19 ТестО19", 
+    "login" : "MSK\\u_sla19", 
+    "email" : "SAlisievich@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-11-25T09:27:55.033+0000"), 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8")), 
+        DBRef("Administration", ObjectId("60239d7396648b12334289b8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "b8825f01-47f5-4606-b80f-9ad22f26cc3e", 
+    "name" : "Дударенков Николай ", 
+    "login" : "MSK\\rum16mm", 
+    "email" : "ndudarenkov@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-12-10T13:13:54.971+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d7f96648b12334289cb"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "ae07b6a8-bffb-4939-aba4-28262259b6bb", 
+    "name" : "Кулешов Сергей ", 
+    "login" : "MSK\\u_m100c", 
+    "email" : "skuleshov@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-12-10T14:21:56.432+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d7f96648b12334289cb"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "71ab2b00-d5ce-4b9d-914a-fa5fab90f88d", 
+    "name" : " Тестовый тест", 
+    "login" : "MSK\\u_sla21", 
+    "email" : "MFedyanin@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-12-14T09:08:20.341+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : true, 
+    "roles" : [
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "f5a979a2-5312-4b98-aaef-1cc440ca7601", 
+    "name" : "Иванов Иван Иваныч", 
+    "login" : "MSK\\u_sla1", 
+    "email" : "SAlisievich@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2021-12-16T14:20:48.004+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : true, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("615498acbe14dac53ea28660"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "1b623bdf-38d8-4720-9dd4-74e956565ffd", 
+    "name" : "Сидина Яна Сергеевна", 
+    "login" : "MSK\\u_m13jx", 
+    "email" : "ysidina@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-01-13T10:35:57.118+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d7f96648b12334289cb"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "add09bad-1e1f-4bf1-a213-2e9a4c877f70", 
+    "name" : "Губин Игорь Васильевич", 
+    "login" : "MSK\\u_m1c4x", 
+    "email" : "ivgubin@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-01-31T11:04:44.155+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "51b29f5c-e394-4971-802c-221bfb097840", 
+    "name" : "Быков Георгий ", 
+    "login" : "MSK\\u_023qu", 
+    "email" : "SAlisievich@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-01-31T11:06:40.737+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : true, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "b8d8c496-d0c0-4686-bbc6-a712d993bd75", 
+    "name" : "Кириллов Максим Александрович", 
+    "login" : "MSK\\u_m18v7", 
+    "email" : "SAlisievich@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-01-31T11:07:36.791+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : true, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "b96643a8-ee53-47a0-9f84-701398c969da", 
+    "name" : "Чуликов Денис Маркович", 
+    "login" : "MSK\\u_m1bum", 
+    "email" : "dchulikov@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-01-31T11:09:24.534+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "d20860f6-699d-436d-a0df-1ad50167765d", 
+    "name" : "Давлятов Айрат Анфирович", 
+    "login" : "MSK\\u_m1brk", 
+    "email" : "adavlyatov@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-02-02T12:45:54.248+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d7f96648b12334289cb"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "27d4b61b-56db-4e52-8d99-39fd711cec67", 
+    "name" : "Перескок Николай Александрович", 
+    "login" : "MSK\\u_m1c2l", 
+    "email" : "npereskok@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-02-02T12:47:59.904+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d7f96648b12334289cb"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "6ea27720-5535-4f5c-b8e4-e70d58ef4064", 
+    "name" : "Якушев Федор Викторович", 
+    "login" : "MSK\\u_m1cvq", 
+    "email" : "fyakushev@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-02-02T12:49:58.662+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d7f96648b12334289cb"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "bfc93610-8b3e-44bd-832e-5347d93d7e8a", 
+    "name" : "Пашкевич Александр Владимирович", 
+    "login" : "MSK\\u_m20p1", 
+    "email" : "apashkevich2@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-03-02T12:04:16.767+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8")), 
+        DBRef("Administration", ObjectId("60239d5a96648b1233428985")), 
+        DBRef("Administration", ObjectId("60239d7396648b12334289b8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "ef162302-09e8-48b5-81e1-bd6c6cb3cbef", 
+    "name" : "Садовский Артём Вальерьевич", 
+    "login" : "MSK\\u_sla22", 
+    "email" : "SAlisievich@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-05-27T09:32:01.001+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : true, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d5a96648b1233428985")), 
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "4ec6310b-8b82-4b64-a422-b4780db5cfae", 
+    "name" : "Шипуль Андрей Анатольевич", 
+    "login" : "MSK\\u_m20n0", 
+    "email" : "ashipul@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-06-02T13:07:58.058+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "e49a483e-a5a1-4abc-9518-66cbfab5d590", 
+    "name" : "Николаев Игорь Юрьевич", 
+    "login" : "MSK\\u_sla26", 
+    "email" : "salisievich@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-07-14T10:48:00.224+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : true, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8")), 
+        DBRef("Administration", ObjectId("60239d5a96648b1233428985")), 
+        DBRef("Administration", ObjectId("60239d7396648b12334289b8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "aa556e2a-396c-4e1d-85a0-9dacfce9ae21", 
+    "name" : "Магомаев Муслим Магометович", 
+    "login" : "MSK\\u_sla29", 
+    "email" : "salisievich@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-07-14T10:48:15.657+0000"), 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d5a96648b1233428985"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "a53a73dc-1eaa-4c9a-84f3-0f73d36beb41", 
+    "name" : "Береза Дмитрий ", 
+    "login" : "MSK\\u_m1cl5", 
+    "email" : "SAlisievich@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-09-20T07:58:04.979+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : true, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "f5f78779-e38c-4a2b-a6d6-253f7fe67227", 
+    "name" : "  ", 
+    "login" : "MSK\\actualize_central", 
+    "email" : "cokkk@testy.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-10-13T11:02:11.209+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("615498acbe14dac53ea28660"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "060bf69c-6835-469f-94e3-4d33789bb941", 
+    "name" : "Николаев Игорь Юрьевич", 
+    "login" : "MSK\\u_sla28", 
+    "email" : "Alisievich@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-10-13T11:03:30.851+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : true, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("611a29efac25d321154deed3"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "08bcd645-4239-49fe-aa45-2e59bc5e9ad1", 
+    "name" : "Труфанова Инна Сергеевна", 
+    "login" : "MSK\\u_m20p6", 
+    "email" : "itrufanova@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-10-13T11:13:48.857+0000"), 
+    "isSparxCreated" : "true", 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("611a29efac25d321154deed3")), 
+        DBRef("Administration", ObjectId("615498acbe14dac53ea28660")), 
+        DBRef("Administration", ObjectId("60239d5a96648b1233428985")), 
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8")), 
+        DBRef("Administration", ObjectId("60239d7f96648b12334289cb")), 
+        DBRef("Administration", ObjectId("60239d7396648b12334289b8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "ea923931-2646-485b-83f2-8b43af9961ca", 
+    "name" : "Давыдова Светлана Петровна", 
+    "login" : "REGIONS\\u_02mpf", 
+    "email" : "apashkevich2@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-10-18T09:25:54.694+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : true, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d5a96648b1233428985"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "9f5aefdf-3bd6-4f18-8b15-af299729a56b", 
+    "name" : "ТестФ11 ТестИ11 ТестО11", 
+    "login" : "MSK\\u_sla11", 
+    "email" : "apashkevich2@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-10-24T07:12:56.097+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : true, 
+    "roles" : [
+        DBRef("Administration", ObjectId("6061fd972f352a09980bf6ad")), 
+        DBRef("Administration", ObjectId("60239d7f96648b12334289cb"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "2f05c544-e1a6-43b7-83e9-036c4f5e80f3", 
+    "name" : " Ануров Сергей Сергеевич ", 
+    "login" : "MSK\\u_c0w002", 
+    "email" : "sanurov@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-10-25T13:11:29.891+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d7f96648b12334289cb"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "fdfdfef6-a4ee-47ee-8af4-e58c723f14ac", 
+    "name" : " Кузенкова Ольга Алексеевна ", 
+    "login" : "MSK\\u_m0ef3", 
+    "email" : "obolkaeva@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-10-25T13:12:18.298+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d7f96648b12334289cb"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "065240af-5e46-4a18-9a00-505b2d3faf52", 
+    "name" : " Шорохов Алексей Александрович ", 
+    "login" : "MSK\\u_c0w7h", 
+    "email" : "aashorokhov@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-10-25T13:20:10.482+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d7f96648b12334289cb"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "2b521c2e-5905-4a4d-a4fa-c334e5f6400d", 
+    "name" : "Чекунов Александр Сергеевич", 
+    "login" : "MSK\\u_sla_ext_4", 
+    "email" : "achekunov@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-10-26T06:20:51.350+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d7f96648b12334289cb"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "5d692504-779a-48c9-8fbb-6c69940af2b3", 
+    "name" : "Федорец Александр Олегович", 
+    "login" : "MSK\\u_sla_ext_3", 
+    "email" : "afedorets@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-10-26T06:21:02.447+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d7f96648b12334289cb"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "7aa0bea1-0aa3-42e8-89c8-34b84d8c7997", 
+    "name" : "Рыкова Мария Владимировна", 
+    "login" : "MSK\\u_sla_ext_2", 
+    "email" : "mrykova@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-10-26T06:21:14.197+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d7f96648b12334289cb"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "eac04ece-3232-4ac4-bd08-0fb4564171f6", 
+    "name" : "Ануров Сергей Сергеевич", 
+    "login" : "MSK\\u_sla_ext_7", 
+    "email" : "SAnurov@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-10-26T06:26:17.712+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : true, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d7f96648b12334289cb"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "c16e8a04-7a78-4f8e-bcbb-32eb15ea0cfc", 
+    "name" : " test1 test2", 
+    "login" : "MSK\\abuzer_test", 
+    "email" : "abuzer_test@ta.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-10-26T09:39:51.588+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d7f96648b12334289cb"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "8d2217ce-541e-4984-ab47-1a3f6fd4571b", 
+    "name" : " Королев Сергей", 
+    "login" : "MSK\\u_m1djb", 
+    "email" : "snkorolev@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-10-31T07:48:38.219+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d6996648b12334289a8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "c3c96681-eb9a-4a1c-9b4a-f76df276bd55", 
+    "name" : "Закрацкий Станислав Михайлович", 
+    "login" : "MSK\\u_m16kc", 
+    "email" : "Salisievich@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-10-31T07:51:45.132+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : true, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d7f96648b12334289cb"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "8d53926f-37ed-4a78-a4aa-cf93e91879cf", 
+    "name" : " Писков Никита Алексеевич ", 
+    "login" : "MSK\\u_m1bqm", 
+    "email" : "npiskov@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-10-31T07:53:02.037+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d7f96648b12334289cb"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "b02df86f-96c9-47e9-86c5-efb95dee92b1", 
+    "name" : "ТестФ18 ТестИ18 ТестО18", 
+    "login" : "MSK\\u_sla18", 
+    "email" : "testmail@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-11-02T07:32:56.047+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : true, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d5a96648b1233428985")), 
+        DBRef("Administration", ObjectId("60239d7396648b12334289b8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "78a49d1b-78d5-4a28-ae47-2c81a0eda866", 
+    "name" : "ТестФ13 ТестИ13 ТестО13", 
+    "login" : "MSK\\u_sla13", 
+    "email" : "EMAILTEST@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-11-03T07:57:14.767+0000"), 
+    "isSparxCreated" : true, 
+    "isNew" : false, 
+    "emailEditable" : true, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d7396648b12334289b8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "89ffbf3a-c8a9-4d57-8581-f24ec8dfafa3", 
+    "name" : "ТестФ14 ТестИ14 ТестО14", 
+    "login" : "MSK\\u_sla14", 
+    "email" : "test3@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2022-11-22T12:51:27.042+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : true, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("60239d7396648b12334289b8"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "550424a8-15d0-4edb-bd3a-52df924f2fad", 
+    "name" : "Test10 User ", 
+    "login" : "MSK\\user test10", 
+    "email" : "123@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2023-01-10T07:45:04.902+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : true, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("611a29efac25d321154deed3"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}
+{ 
+    "_id" : "c648285a-9ac5-42b1-a53f-8b4fd8d83c80", 
+    "name" : "Гончаров Тимофей Олегович", 
+    "login" : "MSK\\u_m1dkg", 
+    "email" : "tgoncharov@alfabank.ru", 
+    "status" : "Active", 
+    "registrationDate" : ISODate("2023-01-10T07:57:35.024+0000"), 
+    "isSparxCreated" : false, 
+    "isNew" : false, 
+    "emailEditable" : false, 
+    "region" : "MSK", 
+    "roles" : [
+        DBRef("Administration", ObjectId("615498acbe14dac53ea28660"))
+    ], 
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.User"
+}

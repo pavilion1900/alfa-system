@@ -1,0 +1,159 @@
+{
+    "_id" : ObjectId("60239d8996648b12334289dd"),
+    "role" : "Guest",
+    "permissions" : [
+        "Read"
+    ],
+    "label" : "Гость",
+    "value" : "Guest",
+    "keycloakID" : "be13742b-6c6c-42f2-af75-7a8f9c8fb64a",
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.UserRole"
+}
+{
+    "_id" : ObjectId("60239d6996648b12334289a8"),
+    "role" : "SA",
+    "permissions" : [
+        "Create",
+        "Read",
+        "Modif",
+        "Del",
+        "Agree"
+    ],
+    "label" : "Солюшн архитектор",
+    "value" : "Solution Architect",
+    "keycloakID" : "cad21fa9-6d92-42fe-bbf1-099d57503962",
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.UserRole"
+}
+{
+    "_id" : ObjectId("6061fd972f352a09980bf6ad"),
+    "role" : "ItSecur",
+    "permissions" : [
+        "Create",
+        "Read",
+        "Modif",
+        "Del",
+        "Agree"
+    ],
+    "label" : "Ответственный за информационную безопасность",
+    "value" : "Informatoin Security Officer",
+    "keycloakID" : "c8ae5d23-0ba6-415f-a319-5e89ec43bbde",
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.UserRole"
+}
+{
+    "_id" : ObjectId("60239d5a96648b1233428985"),
+    "role" : "EA",
+    "permissions" : [
+        "Create",
+        "Read",
+        "Modif",
+        "Del",
+        "Agree"
+    ],
+    "label" : "Энтерпрайз архитектор",
+    "value" : "Enterprise Architect",
+    "keycloakID" : "0b5452aa-4862-4a9c-a699-63dba41ae860",
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.UserRole"
+}
+{
+    "_id" : ObjectId("60239d7396648b12334289b8"),
+    "role" : "Adm",
+    "permissions" : [
+        "Create",
+        "Read",
+        "Modif",
+        "Del",
+        "Agree"
+    ],
+    "label" : "Администратор",
+    "value" : "Administrator",
+    "keycloakID" : "fbaac6a3-970a-48be-a5bf-461d3762f6fd",
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.UserRole"
+}
+{
+    "_id" : ObjectId("607c9222809ee66768b32f08"),
+    "role" : "TechUser",
+    "permissions" : [
+        "Create",
+        "Read",
+        "Modif",
+        "Del",
+        "Agree"
+    ],
+    "label" : "Технический пользователь",
+    "value" : "Techical User",
+    "keycloakID" : "783da134-cadd-446a-a6e0-d36298aa090f",
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.UserRole"
+}
+{
+    "_id" : ObjectId("611a29efac25d321154deed3"),
+    "role" : "Compliance",
+    "permissions" : [
+        "Create",
+        "Read",
+        "Modif",
+        "Del",
+        "Agree"
+    ],
+    "label" : "Сотрудники комплаенса",
+    "value" : "Compliance",
+    "keycloakID" : "734c614f-be19-40bc-ab2c-e97e8704698b",
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.UserRole"
+}
+{
+    "_id" : ObjectId("60239d7f96648b12334289cb"),
+    "role" : "CA",
+    "permissions" : [
+        "Create",
+        "Read",
+        "Modif"
+    ],
+    "label" : "Сотрудник команды/направления",
+    "value" : "Command Architect",
+    "keycloakID" : "e38f291f-6744-4b32-8c50-3fc53477727a",
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.UserRole"
+}
+{
+    "_id" : ObjectId("60239d9296648b12334289ea"),
+    "role" : "DutyEA",
+    "permissions" : [
+        "Create",
+        "Read",
+        "Modif",
+        "Del",
+        "Agree"
+    ],
+    "label" : "Дежурный Энтерпрайз архитектор",
+    "value" : "Duty Enterprise Architect",
+    "keycloakID" : "87063ea0-8ed0-42ac-a11a-96c446765bdb",
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.UserRole"
+}
+{
+    "_id" : ObjectId("6061fd972f352a09980bf6ae"),
+    "role" : "DutyItSecur",
+    "permissions" : [
+        "Create",
+        "Read",
+        "Modif",
+        "Del",
+        "Agree"
+    ],
+    "label" : "Дежурный Ответственный за информационную безопасность",
+    "value" : "Duty Informatoin Security Officer",
+    "keycloakID" : "85fcc646-3c19-474a-9ff0-5c1c36b0d46a",
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.UserRole"
+}
+{
+    "_id" : ObjectId("615498acbe14dac53ea28660"),
+    "role" : "Support",
+    "permissions" : [
+        "Create",
+        "Read",
+        "Modif",
+        "Del",
+        "Agree"
+    ],
+    "label" : "Сотрудники сопровождения банковских систем",
+    "value" : "Support",
+    "keycloakID" : "52ceb80d-d72f-4819-bb86-332668ef4cf7",
+    "_class" : "ru.alfabank.ufr.rsm.keycloak.entity.UserRole"
+}
